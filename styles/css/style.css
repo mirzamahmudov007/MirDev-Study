@@ -7,14 +7,16 @@
 }
 
 .navbar li a {
-  transition: 1s all;
+  color: black;
+  transition: 0.3s all;
 }
 
 .navbar li a:hover {
-  background-color: white;
+  color: rgb(29, 214, 214);
 }
 
 .header {
+  background-color: #fef7ec;
   width: 100%;
   padding-top: 120px;
   padding-bottom: 100px;
@@ -26,7 +28,11 @@
 
 .navbar {
   z-index: 999;
-  background-color: rgb(248, 248, 248);
+  background-color: #fef7ec;
+}
+
+.navbar-brand {
+  color: #fef7ec;
 }
 
 .main_animation {
@@ -34,7 +40,7 @@
   position: relative;
 }
 .main_animation p span {
-  color: #fff;
+  color: #fef7ec;
   background: black;
 }
 .main_animation p span:nth-child(1) {
@@ -93,6 +99,14 @@
   .main_btn {
     width: 50%;
   }
+}
+section {
+  padding: 100px 0px;
+  background-color: #fef7ec;
+}
+
+.darslik {
+  background-color: #f7ecdb;
 }
 
 /*# sourceMappingURL=style.css.map */
